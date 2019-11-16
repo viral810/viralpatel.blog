@@ -24,3 +24,9 @@ body {
   display: flex;
   padding: 20px;
 }
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
