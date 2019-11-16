@@ -16,7 +16,7 @@ const config = {
   postsPerPage: 4, // Amount of posts displayed per listing page.
   userName: "Advanced User", // Username to display in the author segment.
   userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "thedecodedcoder", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
@@ -30,7 +30,7 @@ const config = {
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/thedecodedcoder",
       iconClassName: "fa fa-twitter"
     },
     {
