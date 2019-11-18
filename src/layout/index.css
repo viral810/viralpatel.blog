@@ -4,6 +4,16 @@
 
 @tailwind utilities;
 
+body{
+  color: hsla(0,0%,0%,0.8);
+  background-color: #fff;
+}
+
+body.dark{
+  background-color: hsla(0,0%,0%,0.8);
+  color: #fff;
+}
+
 img{
   @apply mb-0
 }

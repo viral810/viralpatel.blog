@@ -1,4 +1,3 @@
-const { colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
@@ -10,10 +9,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        "regal-blue": "#243c5a",
-        primary: colors.indigo,
-        secondary: colors.yellow,
-        neutral: colors.gray
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        neutral: "var(--neutral)"
       }
     }
   },
