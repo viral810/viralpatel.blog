@@ -3,6 +3,7 @@ slug: understanding-mysql-index-basics
 title: Understanding MySQL Index Basics
 date: "2019-03-03"
 tags: ["database", "mysql", "index", "indices", "mysql basics"]
+thumbnail: ./thumbnails/sql.png
 ---
 
 An index is an on-disk or in-memory structure associated with a table or view that speeds retrieval of rows from the table or view. An index contains keys built from one or more columns in the table or view. For on-disk indexes, these keys are stored in a structure (B-tree) that enabled SQL server to find the row or rows associated with the key values quickly and efficiently.

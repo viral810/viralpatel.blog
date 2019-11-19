@@ -3,6 +3,7 @@ slug: understanding-react-stateless-components
 title: Understanding React stateless components
 date: "2019-02-25"
 tags: ["react", "javascript", "functional"]
+thumbnail: ./thumbnails/react.png
 ---
 
 Since React v14, a simpler way was introduced to define stateless functional components. These component use plain Javascript functions. With React 16.6+, you can declare "pure" functional components via `React.memo`

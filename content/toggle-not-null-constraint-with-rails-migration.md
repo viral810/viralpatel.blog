@@ -3,6 +3,7 @@ slug: toggle-not-null-constraint-with-rails-migration
 title: Toggle NOT NULL constraint with Rails migration
 date: "2019-05-08"
 tags: ["database", "mysql", "rails", "migrations", "ruby"]
+thumbnail: ./thumbnails/rails.png
 ---
 
 Take advantage of `change_column_null` to add or remove **NOT NULL** constraint on a column. The `null` flag indicates whether the value can be **NULL**.

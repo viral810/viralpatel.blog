@@ -7,6 +7,7 @@ tags:
   - "react"
   - "javascript"
   - "functional"
+thumbnail: ./thumbnails/git.png
 ---
 
 Here is how you setup aliases and shortcuts for git commands. Edit `.gitconfig` file in your `$HOME` directory.

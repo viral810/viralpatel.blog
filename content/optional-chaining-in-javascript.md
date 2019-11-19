@@ -4,6 +4,7 @@ title: Optional Chaining in JavaScript
 date: "2019-05-08"
 category: "frontend"
 tags: ["chaining", "es6", "javascript"]
+thumbnail: ./thumbnails/js.png
 ---
 
 Optional chaining enables capabilities for Javascript developers to perform a nil check on the objects before trying to access any object properties.
