@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import sun from "../../images/sun.svg";
 import moon from "../../images/moon.svg";
-import kofi from "../../../content/thumbnails/kofi.png";
+import kofi from "../../images/thumbnails/kofi.png";
 import ThemeContext from "../../context/ThemeContext";
 
 export default class Navbar extends Component {
@@ -19,7 +19,7 @@ export default class Navbar extends Component {
             Viral Patel
           </Link>
         </div>
-        <div className='block md:hidden'>
+        {/* <div className='block md:hidden'>
           <button
             className='flex items-center px-3 py-2 border rounded'
             type='button'
@@ -33,9 +33,9 @@ export default class Navbar extends Component {
               <path d='M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z' />
             </svg>
           </button>
-        </div>
-        <div className='w-full flex items-center justify-between md:w-2/12 font-bold text-sm'>
-          <Link to='/blog' className='mt-4 lg:inline-block lg:mt-0'>
+        </div> */}
+        <div className='flex items-center justify-between w-32 font-bold text-sm'>
+          <Link to='/blog'>
             Blog
           </Link>
           <button

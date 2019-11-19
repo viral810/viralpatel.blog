@@ -32,21 +32,8 @@ export default class MainLayout extends React.Component {
         >
           <meta name='description' content={config.siteDescription} />
           <html lang='en' />
-          <script
-            async
-            src='https://c6.patreon.com/becomePatronButton.bundle.js'
-          />
         </Helmet>
         {children}
-
-        <footer className='flex w-full'>
-          <a
-            href='https://www.patreon.com/bePatron?u=26750695'
-            data-patreon-widget-type='become-patron-button'
-          >
-            Become a Patron!
-          </a>
-        </footer>
       </div>
     );
   }
