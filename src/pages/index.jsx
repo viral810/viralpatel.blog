@@ -65,7 +65,7 @@ class HomePage extends Component {
         </div>
         {/* List Top 5 Articles Here */}
         <div className='flex w-full mb-8'>
-          <h2 className='text-3xl font-bold'>Latest Articles</h2>
+          <h2 className='text-2xl font-bold'>Latest Articles</h2>
           <Link
             to='/blog'
             className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold text-xs py-1 px-3 rounded shadow-md inline-flex items-center ml-10'

@@ -6,13 +6,14 @@ class PostTags extends Component {
   render() {
     const { tags } = this.props;
     return (
-      <div className="post-tag-container">
+      <div className="post-tag-container my-6">
         {tags &&
           tags.map(tag => (
             <Link
               key={tag}
               style={{ textDecoration: "none" }}
               to={`/tags/${_.kebabCase(tag)}`}
+              className="tag mr-5"
             >
               <button type="button">{tag}</button>
             </Link>
