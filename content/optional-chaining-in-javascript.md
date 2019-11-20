@@ -3,7 +3,9 @@ slug: optional-chaining-in-javascript
 title: Optional Chaining in JavaScript
 date: "2019-05-08"
 category: "frontend"
-tags: ["chaining", "es6", "javascript"]
+tags:
+  - "es6"
+  - "javascript"
 thumbnail: ./thumbnails/js.png
 ---
 

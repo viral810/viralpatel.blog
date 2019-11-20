@@ -4,9 +4,7 @@ title: Setup aliases and shortcuts for git commands
 date: "2019-02-25"
 cover: "5.jpg"
 tags:
-  - "react"
-  - "javascript"
-  - "functional"
+  - "git"
 thumbnail: ./thumbnails/git.png
 ---
 

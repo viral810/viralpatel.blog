@@ -2,7 +2,10 @@
 slug: understanding-react-stateless-components
 title: Understanding React stateless components
 date: "2019-02-25"
-tags: ["react", "javascript", "functional"]
+tags:
+  - "react"
+  - "javascript"
+  - "functional"
 thumbnail: ./thumbnails/react.png
 ---
 

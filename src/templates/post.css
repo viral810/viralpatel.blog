@@ -3,7 +3,11 @@
 }
 
 .content p{
-  @apply my-3
+  @apply my-3 text-sm leading-relaxed
+}
+
+.content h2, h3, h4, h5{
+  @apply my-5 block font-bold text-lg
 }
 
 .content a{
@@ -11,9 +15,9 @@
 }
 
 .content pre {
-  @apply text-xs
+  @apply text-xs my-3
 }
 
-.content p code{
+.content p code, .content li code{
   @apply text-xs p-2 bg-red-100 text-red-500 rounded
 }

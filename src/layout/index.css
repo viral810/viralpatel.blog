@@ -19,9 +19,9 @@ img{
 }
 
 .tag{
-  @apply text-xs font-semibold bg-gray-300 text-gray-700 p-2 rounded
+  @apply text-xs bg-gray-300 text-gray-700 p-2 rounded
 }
 
 .tag:hover{
-  @apply bg-gray-600
+  @apply bg-gray-600 text-gray-100
 }

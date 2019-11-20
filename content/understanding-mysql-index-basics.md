@@ -2,7 +2,12 @@
 slug: understanding-mysql-index-basics
 title: Understanding MySQL Index Basics
 date: "2019-03-03"
-tags: ["database", "mysql", "index", "indices", "mysql basics"]
+tags:
+  - "database"
+  - "mysql"
+  - "index"
+  - "indices"
+  - "mysql basics"
 thumbnail: ./thumbnails/sql.png
 ---
 
