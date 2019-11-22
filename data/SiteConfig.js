@@ -3,9 +3,9 @@ const config = {
   siteTitleShort: "Viral Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Viral Patel | Blog", // Alternative site title for SEO.
   siteLogo: "/src/favicon.png", // Logo used for SEO and manifest.
-  siteUrl: "https://gatsby-advanced-starter-demo.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://agitated-kalam-29ac51.netlify.com/", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "A GatsbyJS stater with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Viral Patel Software Developer working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-134715104-1", // GA tracking ID.
