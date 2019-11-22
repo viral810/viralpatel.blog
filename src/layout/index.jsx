@@ -5,6 +5,7 @@ import ThemeContext from "../context/ThemeContext";
 import Navbar from "../components/Navbar";
 import github from "../../content/thumbnails/github.png"
 import gitlab from "../../content/thumbnails/gitlab.png"
+import favicon from "../favicon.png"
 
 
 import config from "../../data/SiteConfig";
@@ -35,6 +36,7 @@ export default class MainLayout extends React.Component {
         >
           <meta name='description' content={config.siteDescription} />
           <html lang='en' />
+          <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
         {children}
 
