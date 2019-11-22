@@ -19,19 +19,20 @@ class Listing extends React.Component {
 
     return (
       <div className='paging-container'>
-        {!isFirstPage && <Link to={prevPage}>Previous</Link>}
-        {[...Array(pageCount)].map((_val, index) => {
+        {!isFirstPage && <Link to={prevPage} className="text-gray-500 hover:text-gray-700 mr-3">Previous</Link>}
+        {pageCount > 1 && [...Array(pageCount)].map((_val, index) => {
           const pageNum = index + 1;
           return (
             <Link
               key={`listing-page-${pageNum}`}
               to={pageNum === 1 ? "/blog" : `/blog/${pageNum}/`}
+              className="p-3 rounded shadow mr-3 hover:bg-gray-200"
             >
               {pageNum}
             </Link>
           );
         })}
-        {!isLastPage && <Link to={nextPage}>Next</Link>}
+        {!isLastPage && <Link to={nextPage} className="text-gray-500 hover:text-gray-700 mr-3">Next</Link>}
       </div>
     );
   }
@@ -77,6 +78,13 @@ export const listingQuery = graphql`
             tags
             cover
             date
+            thumbnail {
+              childImageSharp {
+                fixed(width: 35, height: 35) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
           }
         }
       }

@@ -5,7 +5,6 @@ import Helmet from "react-helmet";
 import Layout from "../layout";
 import config from "../../data/SiteConfig";
 import patreon from "../../content/thumbnails/patreon.png";
-import writing from "../../content/thumbnails/writing.png";
 
 import { Link, graphql } from "gatsby";
 
@@ -26,7 +25,6 @@ class HomePage extends Component {
         timeToRead: postEdge.node.timeToRead
       });
     });
-
 
     return (
       <Layout>
@@ -79,8 +77,11 @@ class HomePage extends Component {
               key={post.path}
               className='my-1 w-full text-sm p-2 rounded tracking-wide hover:bg-gray-200 text-gray-600 hover:text-gray-900'
             >
-              <Link to={post.path} className="flex items-center">
-                <Img fixed={post.thumbnail.childImageSharp.fixed} className="mr-5" />
+              <Link to={post.path} className='flex items-center'>
+                <Img
+                  fixed={post.thumbnail.childImageSharp.fixed}
+                  className='mr-5'
+                />
                 {post.title}
               </Link>
             </li>
