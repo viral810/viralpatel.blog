@@ -1,8 +1,8 @@
 const config = {
-  siteTitle: "Viral Patel | Software Developer | Toronto | Viral Patel | Software Developer | Toronto", // Site title.
+  siteTitle: "Viral Patel | Blog", // Site title.
   siteTitleShort: "Viral Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Viral Patel | Blog", // Alternative site title for SEO.
-  siteLogo: "/src/favicon.png", // Logo used for SEO and manifest.
+  siteLogo: "/logos/logo-192.png", // Logo used for SEO and manifest.
   siteUrl: "https://agitated-kalam-29ac51.netlify.com/", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Viral Patel Software Developer working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder.", // Website description used for RSS feeds/meta description tag.
