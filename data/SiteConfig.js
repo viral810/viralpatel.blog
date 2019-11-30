@@ -25,7 +25,7 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      url: "https://github.com/viral810",
       iconClassName: "fa fa-github"
     },
     {
