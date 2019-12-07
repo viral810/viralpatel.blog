@@ -42,6 +42,11 @@ export default class MainLayout extends React.Component {
         {/* Page Body should go here */}
         {children}
 
+        <div class="w-full my-16 bg-purple-700 p-5 rounded-lg text-white">
+          <h4 class="mt-0">What is this Site?</h4>
+          <p class="text-sm tracking-wide leading-relaxed"><a class="underline" href="https://viralpatel.blog">viralpatel.blog</a> is started by me, Viral Patel, as a place to write posts and blogs about problems that I personally face during my day to day and share new learnings about software development work. Even though there is abundant of information out there via various personal blogs or blogs written by technical companies, day in and day out, We as software developers face different problems. By starting out this blog, I wish to explore different problem solving patterns and software design practices that will make easier to build quality and useful software. </p>
+        </div>
+
         <footer className="flex items-center justify-between w-full mb-5 mt-10">
           <div className="flex w-1/4 justify-between text-sm">
             <a href="https://ko-fi.com/viralpatel" className="text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">Ko-Fi</a>
