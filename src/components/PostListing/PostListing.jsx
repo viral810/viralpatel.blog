@@ -24,9 +24,12 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
+    const { tag } = this.props;
+
     return (
       <div>
         <h1 className='text-6xl font-extrabold my-16'>Blog</h1>
+        <h2 className='text-xl font-bold my-10'> {postList.length} posts found under {tag} </h2>
         {/* Your post list here. */
         postList.map(post => (
           <Link

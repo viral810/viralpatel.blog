@@ -7,6 +7,7 @@ import config from "../../data/SiteConfig";
 import patreon from "../../content/thumbnails/patreon.png";
 
 import { Link, graphql } from "gatsby";
+import kebabCase from "lodash/kebabCase";
 
 class HomePage extends Component {
   render() {
@@ -25,6 +26,14 @@ class HomePage extends Component {
         timeToRead: postEdge.node.timeToRead
       });
     });
+
+    const tagList = [];
+    postList.forEach(post => {
+      post.tags.forEach(tag => {
+        tagList.push(tag);
+      });
+    });
+    const tags = tagList.filter((tag, index) => tagList.indexOf(tag) === index);
 
     return (
       <Layout>
@@ -87,6 +96,18 @@ class HomePage extends Component {
             </li>
           ))}
         </ul>
+
+        {/* List of Tags */}
+        <div className='w-full my-12'>
+          <h3 className='text-2xl'>Tags</h3>
+          <div className='flex flex-wrap justify-start'>
+            {tags.map(tag => (
+              <Link to={`/tags/${kebabCase(tag)}`} key={tag} className='underline my-3 mr-8 ml-0'>
+                {tag}
+              </Link>
+            ))}
+          </div>
+        </div>
 
         {/* List Companies you have worked for */}
 

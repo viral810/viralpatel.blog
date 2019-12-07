@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import _ from "lodash";
+import kebabCase from "lodash/kebabCase";
 import { Link } from "gatsby";
 
 class PostTags extends Component {
@@ -12,7 +12,7 @@ class PostTags extends Component {
             <Link
               key={tag}
               style={{ textDecoration: "none" }}
-              to={`/tags/${_.kebabCase(tag)}`}
+              to={`/tags/${kebabCase(tag)}`}
               className="tag mr-2"
             >
               <button type="button">{tag}</button>
