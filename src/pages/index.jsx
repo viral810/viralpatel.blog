@@ -31,10 +31,10 @@ class HomePage extends Component {
         <div className='about-container'>
           <Helmet title={`Home | ${config.siteTitle}`} />
         </div>
-        <div className='flex items-center justify-between py-5'>
-          <div className='flex-initial items-center py-10 w-9/12'>
+        <div className='flex items-center justify-between py-5 flex-wrap'>
+          <div className='flex-initial items-center py-10 lg:w-9/12 w-full'>
             <h2 className='text-3xl font-bold'>I'm Viral Patel</h2>
-            <p className='w-3/4 text-lg my-5'>
+            <p className='lg:w-3/4 text-lg my-5'>
               Toronto based Full Stack Developer working with teams and startups
               to create websites, scalable web applications and systems that
               focus on performance, amazing UI/UX design, and simplicity.
@@ -53,7 +53,7 @@ class HomePage extends Component {
               />
             </a>
           </div>
-          <div className='inline-flex justify-end w-3/12'>
+          <div className='inline-flex lg:justify-end items-center justify-center lg:w-3/12 w-full'>
             <img
               src='https://media.licdn.com/dms/image/C5603AQGc2Z7FneVkFg/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=Hd_CwEsKXacRUNDU4MZSrpTtOr3SR9kyGs8ktR19SxI'
               alt='Viral Patel'

@@ -38,6 +38,8 @@ export default class MainLayout extends React.Component {
           <html lang='en' />
           <link rel="shortcut icon" type="image/png" href={favicon} />
         </Helmet>
+
+        {/* Page Body should go here */}
         {children}
 
         <footer className="flex items-center justify-between w-full mb-5 mt-10">
