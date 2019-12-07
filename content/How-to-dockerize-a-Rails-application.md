@@ -206,8 +206,6 @@ Finally, you need to create the database. In another terminal, run:
 docker-compose run web rake db:create
 ```
 
-That’s it.
-
 That’s it. Your app should now be running on port 3000 on your Docker daemon.
 
 On Docker Desktop for Mac and Docker Desktop for Windows, go to http://localhost:3000 on a web browser to see the Rails Welcome.
