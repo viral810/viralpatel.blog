@@ -201,7 +201,8 @@ services:
 ```
 
 Finally, you need to create the database. In another terminal, run:
-```
+
+```sh
 docker-compose run web rake db:create
 ```
 
