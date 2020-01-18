@@ -34,7 +34,7 @@ export default class Navbar extends Component {
             </svg>
           </button>
         </div> */}
-        <div className='flex items-center justify-between w-40 font-bold text-sm'>
+        <div className='flex items-center justify-between w-2/5 font-bold text-sm'>
           <Link to='/blog'>
             Blog
           </Link>
@@ -60,7 +60,7 @@ export default class Navbar extends Component {
           >
             <img src={kofi} alt='Kofi' className='kofi' />
           </a>
-          <input type="text" class="st-default-search-input bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"></input>
+          <input type="text" class="st-default-search-input bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal" placeholder="search content"></input>
         </div>
       </nav>
     );
