@@ -64,7 +64,7 @@ class HomePage extends Component {
           </div>
           <div className='inline-flex lg:justify-end items-center justify-center lg:w-3/12 w-full'>
             <img
-              src='https://media.licdn.com/dms/image/C5603AQGc2Z7FneVkFg/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=Hd_CwEsKXacRUNDU4MZSrpTtOr3SR9kyGs8ktR19SxI'
+              src='https://instagram.fyyz1-2.fna.fbcdn.net/v/t51.2885-19/s320x320/49579480_370943336819097_8083475170896904192_n.jpg?_nc_ht=instagram.fyyz1-2.fna.fbcdn.net&_nc_ohc=H14aNOfrJOoAX9b_Pqb&oh=40ae102fa92f210f9e8fcfdb4825d3e4&oe=5EC317B1'
               alt='Viral Patel'
               className='shadow-lg rounded'
             />
